@@ -1,0 +1,21 @@
+# Namma Metro KPI Tree
+
+## Main question
+How is Metro service being used, and when is demand highest?
+
+## KPI tree
+
+Metro service use
+├── How many people ride?
+│   └── Daily riders
+├── When is it busiest?
+│   └── Peak-hour riders as a share of daily riders
+├── Which stations are busiest?
+│   └── Riders by station
+└── How does usage change?
+    └── Week-over-week change in riders
+
+## Notes
+- Use the public ridership dataset provided in the internship handbook.
+- Record the dataset source and date downloaded when you begin the analysis.
+- These measures describe ridership. They do not directly measure passenger satisfaction or actual revenue.
