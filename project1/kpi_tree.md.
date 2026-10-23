@@ -1,21 +1,27 @@
-# Namma Metro KPI Tree
+# Project 1 KPI Tree: Online Retail Sales
 
 ## Main question
-How is Metro service being used, and when is demand highest?
+How is the online retail business performing, and which products, countries, and customers contribute most to sales?
 
 ## KPI tree
 
-Metro service use
-├── How many people ride?
-│   └── Daily riders
-├── When is it busiest?
-│   └── Peak-hour riders as a share of daily riders
-├── Which stations are busiest?
-│   └── Riders by station
-└── How does usage change?
-    └── Week-over-week change in riders
+Online retail business performance
+├── How much did the business sell?
+│   └── Revenue = quantity × price, summed across items
+├── How many orders were placed?
+│   └── Number of unique invoice numbers
+├── What was the average order value?
+│   └── Average order value = revenue ÷ number of orders
+├── Which products performed best?
+│   ├── Units sold by product
+│   └── Revenue by product
+├── Which countries had the highest sales?
+│   └── Revenue by country
+└── Are customers returning?
+    └── Repeat-customer rate = customers with more than one order ÷ all customers
 
 ## Notes
-- Use the public ridership dataset provided in the internship handbook.
-- Record the dataset source and date downloaded when you begin the analysis.
-- These measures describe ridership. They do not directly measure passenger satisfaction or actual revenue.
+- These are the measures I plan to calculate; they are not results yet.
+- I will check missing values, cancellations, and unusual quantities or prices before interpreting the results.
+- The dataset comes from the UCI Machine Learning Repository: https://archive.ics.uci.edu/dataset/502/online+retail+ii
+- The dataset contains missing values, so I will document how I handle them.
