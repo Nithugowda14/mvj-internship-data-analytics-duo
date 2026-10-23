@@ -25,3 +25,50 @@ Online retail business performance
 - I will check missing values, cancellations, and unusual quantities or prices before interpreting the results.
 - The dataset comes from the UCI Machine Learning Repository: https://archive.ics.uci.edu/dataset/502/online+retail+ii
 - The dataset contains missing values, so I will document how I handle them.
+
+# Project 1 KPI Tree: Online Retail Sales
+
+## Main question
+
+**How is the online retail business performing, and which products, countries, and customers contribute most to sales?**
+
+## KPI tree
+
+```text
+Online retail business performance
+├── How much did the business sell?
+│   ├── Gross sales: £19,642,818
+│   └── Net revenue after returns: £18,926,477
+├── How many orders were placed?
+│   └── Distinct non-cancelled invoices: 39,516
+├── What was the average order value?
+│   └── Gross sales ÷ orders: £497.09 per order
+├── Which products performed best?
+│   ├── Units sold by product
+│   └── Net revenue by product
+│       └── Top product: Regency Cakestand 3 Tier — £314,045
+├── Which countries had the highest sales?
+│   └── Revenue by country
+│       └── United Kingdom: approximately 85% of dashboard revenue
+└── Are customers returning?
+    └── Repeat-customer rate =
+        customers with more than one order ÷ customers with an ID
+```
+
+## KPI definitions
+
+- **Gross sales:** Sales value before subtracting returns.
+- **Net revenue:** Sales value after accounting for returns.
+- **Orders:** Number of distinct, non-cancelled invoice numbers.
+- **Average order value (AOV):** Gross sales divided by the number of orders.
+- **Repeat-customer rate:** Customers with more than one order divided by all customers with an ID.
+- **Product and country sales:** Revenue and units grouped by product or country.
+
+## Notes
+
+- The figures above are results from the dashboard and analysis.
+- The repeat-customer rate is defined here, but its result should be added after calculating it with the same data-cleaning rules used for this project.
+- I checked missing values, cancellations, duplicate rows, and unusual quantity or price values before interpreting the results.
+- The data comes from the [UCI Machine Learning Repository: Online Retail II](https://archive.ics.uci.edu/dataset/502/online%2Bretail%2Bii).
+- The dataset contains missing values. Cleaning decisions and their effects are documented in this project.
+- Revenue and sales are not profit. Product costs are not available in this dataset.
