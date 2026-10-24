@@ -2,6 +2,7 @@
 
 ## Student
 - Name: Nithya
+- Name: Subham Rout
 - Track: Data Analytics
 - Internship dates: 17 October to 17 November 2026
 
