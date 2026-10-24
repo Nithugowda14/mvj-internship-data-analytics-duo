@@ -1,1 +1,21 @@
+Date,Hours,What I worked on,What I learned
 
+
+Project 1: Online Retail II KPI Analysis
+Date: 23 October 2026
+Hours: 8
+
+I worked on:
+Online Retail II KPI Analysis** by reviewing the two year sheets and the dashboard’s 
+data-preparation decisions, including duplicate rows from the overlapping dates, cancellations and returns, 
+missing customer IDs, fees, and zero-price items; checking the Excel dashboard’s KPIs, filters, charts, product 
+rankings, country results, heat map, and year-over-year comparison; running SQLite queries to calculate gross sales,
+net revenue, order count, average order value, and top products; comparing those SQL results with calculations in Excel 
+and pandas; and preparing the project’s main question, KPI definitions and tree, findings, recommendation, limitations,
+and README.
+
+What I learned:
+I learned how to prepare and check retail transaction data, define sales KPIs, and compare results from Excel, 
+pandas, and SQLite. I also learned that gross sales and net revenue differ because of returns, average order value
+is gross sales divided by orders, units sold before returns can differ from net units, and revenue is not the same
+as profit because product costs were not available.
