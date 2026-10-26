@@ -19,3 +19,37 @@ I learned how to prepare and check retail transaction data, define sales KPIs, a
 pandas, and SQLite. I also learned that gross sales and net revenue differ because of returns, average order value
 is gross sales divided by orders, units sold before returns can differ from net units, and revenue is not the same
 as profit because product costs were not available.
+
+Date: 24 October 2026
+Hours: 4
+
+I worked on:
+Finalizing the Project 1 KPI analysis by reviewing revenue, average order value, repeat customers, top products, 
+and month-over-month sales growth. I organized the results and prepared recommendations for the project.
+
+What I learned:
+I learned how to bring several sales KPIs together to explain business performance and support recommendations 
+with data.
+
+Weekly Review and Python Refresh
+Date: 25 October 2026
+Hours: 2
+
+I worked on:
+Reviewing my Project 1 work, reflecting on the week’s learning, and refreshing Python and pandas concepts for the 
+next internship tasks.
+
+What I learned:
+I learned that reviewing completed work helps me identify what I understand and what I need to practise further.
+
+Pandas DataFrames: Recreating Project 1 KPIs
+Date: 26 October 2026
+Hours: 4
+
+I worked on:
+Using pandas DataFrames to recreate and check Project 1 KPI calculations, including sales and order measures, 
+and comparing the results with my Excel dashboard.
+
+What I learned:
+I learned how pandas can organize transaction data and calculate KPIs for analysis. I also learned to compare 
+results from different tools to check that they agree.
