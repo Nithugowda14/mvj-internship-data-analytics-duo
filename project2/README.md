@@ -62,3 +62,52 @@ The dataset represents a fictional online retailer and does not guarantee that t
 ## AI-use log
 
 I will record how AI tools helped with this project and how I checked any suggested code, calculations, or explanations.
+
+
+
+
+
+
+
+
+
+
+
+
+# Project 2: Customer Segmentation and Retention
+
+## Goal
+Analyze customer purchasing patterns using RFM segmentation and monthly cohort retention, then propose ways to encourage repeat purchases.
+
+## Dataset
+Maven Fuzzy Factory practice dataset. The `orders.csv` file includes `user_id` (customer), `order_id` (order), order date, order value, and cost.
+
+## Work completed
+- Calculated each customer's recency, order frequency, and monetary value (RFM).
+- Grouped customers into segments.
+- Calculated the repeat-customer rate.
+- Created a monthly cohort-retention table and heatmap.
+- Prepared a retention plan and documented findings and limitations.
+
+## Key results
+- Customers analyzed: **31,696**
+- Repeat customers: **591**
+- Repeat-customer rate: **1.86%**
+
+RFM segment counts:
+
+| Segment | Customers |
+|---|---:|
+| Lapsed one-time | 15,616 |
+| Recent one-time | 8,244 |
+| High-value recent one-time | 7,245 |
+| High-value active repeat | 348 |
+| At-risk repeat | 243 |
+
+## Files
+- `project2_customer_retention.ipynb` — analysis notebook
+- `findings_and_limitations.md` — findings and caveats
+- `retention_plan.md` — proposed small retention test
+
+## Limitation
+These are historical results from a practice dataset. The repeat-customer rate covers the full available data period, and order value is not profit.
