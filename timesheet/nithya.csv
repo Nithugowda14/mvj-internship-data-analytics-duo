@@ -53,3 +53,20 @@ and comparing the results with my Excel dashboard.
 What I learned:
 I learned how pandas can organize transaction data and calculate KPIs for analysis. I also learned to compare 
 results from different tools to check that they agree.
+
+You’re right, bro—I left out the Colab analysis. Here’s the revised entry:
+
+**Project 2: Customer Segmentation, Cohort Retention, and Dashboard**  
+**Date:** 27 October 2026  
+**Hours:** [Enter your actual hours]
+
+**I worked on:**  
+Using Google Colab and pandas to analyze the Maven Fuzzy Factory `orders.csv` file. I calculated customer recency,
+order frequency, and spending; checked the repeat-customer rate; assigned RFM segments; and created a monthly
+cohort-retention table and heatmap. I exported the analysis results and used them to create an interactive Excel
+dashboard with a year filter, KPI cards, charts, and the light teal style from my reference image.
+
+**What I learned:**  
+I learned how pandas can calculate customer-level RFM measures and cohort retention, and how to use those results in
+an interactive Excel dashboard. I also learned that the repeat-customer rate and month-one cohort retention measure
+different customer behaviors.
