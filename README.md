@@ -15,7 +15,7 @@ This is the shared GitHub repository for our two-person Data Analytics internshi
 | Project   | Topic                               | Tools / dataset                     | Status      |
 | --------- | ----------------------------------- | ----------------------------------- | ----------- |
 | Project 1 | Online Retail II KPI analysis       | SQL, Excel, Python and dashboard    | Completed   |
-| Project 2 | Customer segmentation and retention | Python; Maven Fuzzy Factory dataset | In progress |
+| Project 2 | Customer segmentation and retention | Python; Maven Fuzzy Factory dataset | Completed
 | Project 3 | Predictive analysis and dashboards  | none                                | none        |
 | Capstone  | Team project                        | To be chosen                        | none        |
 
