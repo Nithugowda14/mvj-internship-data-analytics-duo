@@ -1,1 +1,72 @@
+Date,Hours,What I worked on,What I learned
 
+
+Project 1: Online Retail II KPI Analysis
+Date: 23 October 2026
+Hours: 8
+
+I worked on:
+Online Retail II KPI Analysis** by reviewing the two year sheets and the dashboard’s 
+data-preparation decisions, including duplicate rows from the overlapping dates, cancellations and returns, 
+missing customer IDs, fees, and zero-price items; checking the Excel dashboard’s KPIs, filters, charts, product 
+rankings, country results, heat map, and year-over-year comparison; running SQLite queries to calculate gross sales,
+net revenue, order count, average order value, and top products; comparing those SQL results with calculations in Excel 
+and pandas; and preparing the project’s main question, KPI definitions and tree, findings, recommendation, limitations,
+and README.
+
+What I learned:
+I learned how to prepare and check retail transaction data, define sales KPIs, and compare results from Excel, 
+pandas, and SQLite. I also learned that gross sales and net revenue differ because of returns, average order value
+is gross sales divided by orders, units sold before returns can differ from net units, and revenue is not the same
+as profit because product costs were not available.
+
+Date: 24 October 2026
+Hours: 4
+
+I worked on:
+Finalizing the Project 1 KPI analysis by reviewing revenue, average order value, repeat customers, top products, 
+and month-over-month sales growth. I organized the results and prepared recommendations for the project.
+
+What I learned:
+I learned how to bring several sales KPIs together to explain business performance and support recommendations 
+with data.
+
+Weekly Review and Python Refresh
+Date: 25 October 2026
+Hours: 2
+
+I worked on:
+Reviewing my Project 1 work, reflecting on the week’s learning, and refreshing Python and pandas concepts for the 
+next internship tasks.
+
+What I learned:
+I learned that reviewing completed work helps me identify what I understand and what I need to practise further.
+
+Pandas DataFrames: Recreating Project 1 KPIs
+Date: 26 October 2026
+Hours: 4
+
+I worked on:
+Using pandas DataFrames to recreate and check Project 1 KPI calculations, including sales and order measures, 
+and comparing the results with my Excel dashboard.
+
+What I learned:
+I learned how pandas can organize transaction data and calculate KPIs for analysis. I also learned to compare 
+results from different tools to check that they agree.
+
+You’re right, bro—I left out the Colab analysis. Here’s the revised entry:
+
+**Project 2: Customer Segmentation, Cohort Retention, and Dashboard**  
+**Date:** 27 October 2026  
+**Hours:** [Enter your actual hours]
+
+**I worked on:**  
+Using Google Colab and pandas to analyze the Maven Fuzzy Factory `orders.csv` file. I calculated customer recency,
+order frequency, and spending; checked the repeat-customer rate; assigned RFM segments; and created a monthly
+cohort-retention table and heatmap. I exported the analysis results and used them to create an interactive Excel
+dashboard with a year filter, KPI cards, charts, and the light teal style from my reference image.
+
+**What I learned:**  
+I learned how pandas can calculate customer-level RFM measures and cohort retention, and how to use those results in
+an interactive Excel dashboard. I also learned that the repeat-customer rate and month-one cohort retention measure
+different customer behaviors.
